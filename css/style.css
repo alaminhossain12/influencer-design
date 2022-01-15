@@ -1,0 +1,380 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.clr {
+  clear: both;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ---------------------------------------------------------------------
+          Header Parts Starts
+------------------------------------------------------------------------ */
+#header {
+  margin-top: 50px;
+  background-color: #000000;
+  padding: 20px 0;
+}
+
+#header .header-left {
+  width: 50%;
+  float: left;
+}
+
+#header .header-left .logo h1 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #FFF;
+}
+
+#header .header-right {
+  width: 50%;
+  float: left;
+}
+
+#header .header-right .link ul {
+  display: flex;
+}
+
+#header .header-right .link ul li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+#header .header-right .link ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  color: #FFF;
+  padding: 10px 0;
+}
+
+/* ---------------------------------------------------------------------
+          Header Parts Parts  Ends
+------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------
+      Animation Parts Starts
+--------------------------------------------------------------------- */
+#animation {
+  margin-top: 100px;
+}
+
+#animation .photo-gallery .photos img {
+  width: 436px;
+  height: 410px;
+  border-radius: 10px;
+}
+
+.photo-gallery {
+  display: flex;
+}
+
+.photos {
+  margin: 5px;
+}
+
+.photo-gallery:hover .photos {
+  transform: rotate(60deg);
+  transition: transform 1s ease-in-out;
+}
+/* ------------------------------------------------------------------
+      Animation Parts ENds
+--------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------
+        Influencer parts Starts 
+-------------------------------------------------------------------------*/
+#Influencer {
+  margin-top: 100px;
+}
+
+#Influencer .Influencer-left {
+  width: 50%;
+  float: left;
+}
+
+#Influencer .Influencer-left .text {
+  margin-top: 100px;
+}
+
+#Influencer .Influencer-left .text .heading {
+  color: black;
+  font-weight: 600px;
+  font-size: 30px;
+}
+
+#Influencer .Influencer-left .text .normal-text {
+  color: black;
+  font-weight: 600px;
+  font-size: 26px;
+}
+
+#Influencer .Influencer-left .text .para {
+  font-size: 16px;
+  color: #3A3A3A;
+  line-height: 25px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+#Influencer .Influencer-left .text .btn-link {
+  text-decoration: none;
+  color: white;
+  background-color: #E02C6D;
+  padding: 10px 24px;
+  display: inline-block;
+  border-radius: 41px;
+  font-size: 22px;
+}
+
+#Influencer .Influencer-left .text .fas {
+  margin-left: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#Influencer .Influencer-right {
+  width: 50%;
+  float: left;
+}
+
+#Influencer .Influencer-right .image img {
+  width: 440px;
+  height: 414px;
+}
+/* ----------------------------------------------------------------------
+        Influencer parts Ends 
+-------------------------------------------------------------------------*/
+
+/* -------------------------------------------------------------
+      Button Parts
+---------------------------------------------------------------- */
+#button {
+  padding: 40px 0;
+  text-align: right;
+}
+
+#button a {
+  text-decoration: none;
+  color: #E02C6D;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* -------------------------------------------------------------
+      Button Parts
+---------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------------
+        Influencer blog parts Starts 
+-------------------------------------------------------------------------*/
+#blog {
+  margin-top: 100px;
+}
+
+#blog .title {
+  text-align: center;
+}
+
+#blog .title .section-title {
+  color:#3A3A3A;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+#blog .blog-part {
+  background: #FFFFFF;
+  margin-top: 50px;
+}
+
+#blog .blog-part {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+}
+
+#blog .blog-part .blog-item {
+  padding: 20px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+#blog .blog-part .blo-item .influencer-image img {
+  width: 300px;
+  height: 256px;
+}
+
+#blog .blog-part .blog-item .influencer-details .headings {
+  color: #18191F;
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+#blog .blog-part .blog-item .influencer-details .price {
+  color: #000000;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+#blog .blog-part .blog-item .icon .fas {
+  color: rgb(88, 88, 18);
+}
+
+#blog .blog-part .blog-item .icon {
+  display: flex;
+}
+
+#blog .blog-part .blog-item .icon .rating {
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+#blog .blog-part .blog-item .text p {
+  color: #787885;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+#blog .show {
+  text-align: right;
+}
+/* ----------------------------------------------------------------------
+        Influencer blog parts Ends 
+-------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+      Featured Parts Starts
+------------------------------------------------------------------- */
+#featured {
+  margin-top: 100px;
+}
+
+
+#featured .left {
+  width: 50%;
+  float: left;
+}
+
+#featured .left .image-show img {
+  width: 404px;
+  height: 270px;
+}
+
+#featured .right {
+  width: 50%;
+  float: left;
+}
+
+#featured .right .featured-text .line {
+  font-size: 38px;
+  color:#0A0826;
+  font-weight: 600;
+  line-height: 55px;
+}
+
+#featured .right .featured-text .paragraph {
+  color: #6C6C6C;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  width: 482px;
+}
+
+#featured .right .featured-text .link {
+  text-decoration: none;
+  color:#FFFFFF;
+  font-size: 18px;
+  background-color: #E02C6D;
+  margin-top: 25px;
+  padding: 12px 20px;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+#featured .right .featured-text .fas {
+  margin-left: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+/* ----------------------------------------------------------------
+      Featured Parts Ends 
+------------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------------
+      Footer Parts Starts
+-------------------------------------------------------------------------- */
+#footer {
+  margin-top: 100px;
+  background-color: #0A0826;
+  padding: 30px 0;
+  text-align: center;
+}
+
+#footer .footer-text .titles {
+  color: #FFF;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+#footer .footer-text .text-center {
+  color: #D9DBE1;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+#footer .footer-icon {
+  margin-top: 10px;
+}
+
+#footer .footer-icon i {
+  color: #FFF;
+  margin-right: 15px;
+}
+/* -----------------------------------------------------------------------------
+      Footer Parts Ends
+-------------------------------------------------------------------------------- */
+
+
+/* -----------------------------------------------------------------------
+    Css ResPonsive design
+--------------------------------------------------------------------------- */
+
+/* Mobile Design */
+
+@media only screen and (max-width: 688px){
+   .blog-part  {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .blog{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* tablet Devices */ 
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  
+}
